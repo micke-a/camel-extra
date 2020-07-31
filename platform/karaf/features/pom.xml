@@ -26,7 +26,7 @@
   <parent>
     <groupId>org.apache-extras.camel-extra</groupId>
     <artifactId>features</artifactId>
-    <version>2.24.4-SNAPSHOT</version>
+    <version>3.4.2-SNAPSHOT</version>
   </parent>
 
   <groupId>org.apache-extras.camel-extra.karaf</groupId>
@@ -44,20 +44,21 @@
     <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>org.osgi.core</artifactId>
+      <version>${osgi-version}</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>org.ops4j.pax.logging</groupId>
-      <artifactId>pax-logging-api</artifactId>
-      <version>${pax-logging-version}</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.ops4j.pax.logging</groupId>
-      <artifactId>pax-logging-service</artifactId>
-      <version>${pax-logging-version}</version>
-      <scope>provided</scope>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.ops4j.pax.logging</groupId>-->
+<!--      <artifactId>pax-logging-api</artifactId>-->
+<!--      <version>${pax-logging-version}</version>-->
+<!--      <scope>provided</scope>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.ops4j.pax.logging</groupId>-->
+<!--      <artifactId>pax-logging-service</artifactId>-->
+<!--      <version>${pax-logging-version}</version>-->
+<!--      <scope>provided</scope>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>org.apache.felix</groupId>
       <artifactId>org.apache.felix.framework</artifactId>
